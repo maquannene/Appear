@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		D4878C381E0AC5A70085C726 /* Appear.h in Headers */ = {isa = PBXBuildFile; fileRef = D4878C361E0AC5A70085C726 /* Appear.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4878C3F1E0AC60A0085C726 /* Appear.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4878C3E1E0AC60A0085C726 /* Appear.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D4878C331E0AC5A70085C726 /* Appear.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Appear.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4878C361E0AC5A70085C726 /* Appear.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Appear.h; sourceTree = "<group>"; };
 		D4878C371E0AC5A70085C726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4878C3E1E0AC60A0085C726 /* Appear.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Appear.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				D4878C361E0AC5A70085C726 /* Appear.h */,
+				D4878C3E1E0AC60A0085C726 /* Appear.swift */,
 				D4878C371E0AC5A70085C726 /* Info.plist */,
 			);
 			path = Appear;
@@ -96,6 +99,7 @@
 					D4878C321E0AC5A70085C726 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 47A7JUUJ9E;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4878C3F1E0AC60A0085C726 /* Appear.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +245,7 @@
 		D4878C3C1E0AC5A70085C726 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 47A7JUUJ9E;
@@ -252,6 +258,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "--.Appear";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -259,6 +266,7 @@
 		D4878C3D1E0AC5A70085C726 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 47A7JUUJ9E;
